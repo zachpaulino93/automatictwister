@@ -1,0 +1,13 @@
+* need random module to randomize each play
+
+( * need colors * need feet * need hands values)
+
+an input for users and names into a dictionary and log completed steps
+loop to say when im done inputing users
+
+game to loop after each move and display user name
+
+key press on failure to remove user from game?
+
+need a timer before each loop key is processed one for user to attempt move and second
+for user to hit key if failed (future make voice activated??)
