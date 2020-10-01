@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 import random
-
+import time
 
 
 def gather_users():
@@ -16,13 +16,22 @@ def gather_users():
     return users
 
 def random_picks(player):
-    # need to randomly pick color side and body
-    colors = ["Blue", "Green", "Yellow", "Red"]
+    # twister selections 
+    colors = [
+    "Blue",
+    "Green",
+    "Yellow", 
+    "Red"
+      ]
     side = ["Left", "Right"]
     body = ["Hand", "Foot"]
-
-    print(f"Alright! {player}, place {side} {body} on {colors}")
+    # print selection at random
+    print(f"Alright! {player}, place {side[0]} {body[1]} on {colors[2]}\n")
     return player
+
+#def game_rounds()
+# how many rounds the game will go for
+
 
 
 def game_loop():
